@@ -28,7 +28,6 @@ public class TicketServiceImplTest {
         ticketService = new TicketServiceImpl(ticketPaymentService, seatReservationService);
     }
 
-
     @Test
     public void testAllTicketTypesPurchase() {
         TicketTypeRequest adultTicket = createTypeRequest(TicketTypeRequest.Type.ADULT, 10);
